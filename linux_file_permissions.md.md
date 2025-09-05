@@ -8,7 +8,7 @@ The research team at my organization needed to update file permissions for speci
 
 The code snippet below illustrates how I utilized Linux commands to identify the current permission settings for a specific directory in the file system.
 
-![Screenshot of the command line with the command for this task and its output][image1]
+![Description of image](https://raw.githubusercontent.com/dondex001/file-permissions-management/d56eba7538a6d555cd5757eb0cb805eff9eb8c95/check-file1.png)
 
 The first line in the screenshot shows the command I entered, while the subsequent lines display its output. The command lists all contents of the projects directory. I used the `ls -la` option to generate a detailed listing that also includes hidden files. The output reveals one directory named *drafts*, one hidden file named *.project\_x.txt*, and five additional project files. The 10-character string in the first column specifies the permissions assigned to each file or directory.
 
