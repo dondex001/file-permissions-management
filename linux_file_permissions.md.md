@@ -40,7 +40,8 @@ The research team at my organization recently archived *project\_x.txt*. Since t
 
 The following example demonstrates how I made these changes:
 
-![Screenshot of the command line with the commands for this task and their output][image3]
+![File Permissions Screenshot](https://github.com/dondex001/file-permissions-management/blob/0abccd1de4276ef5c65694c0e6a32a5d8633fc8d/file-permissions3.png)
+
 
 In the screenshot, the first two lines show the commands I entered, while the remaining lines display the output of the second command. I could tell that *.project\_x.txt* is a hidden file because its name begins with a period (.). In this example, I modified its permissions by removing write access from both the user and the group, while also granting the group read access. Specifically, I used `u-w` to remove the user’s write permission, `g-w` to remove the group’s write permission, and `g+r` to add read permission for the group.
 
