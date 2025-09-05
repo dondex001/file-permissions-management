@@ -6,11 +6,9 @@ The objective was to ensure files and directories follow organizational security
 ## 📸 Screenshot  
 Below is the screenshot showing the commands and outputs from this lab:  
 
-![Linux file permissions lab](chmod-before.png)
+![Linux file permissions lab](https://github.com/dondex001/file-permissions-management/blob/1ca1b04c81208b536f0331c65ba2bf3c1a5cb11c/chmod-before.png)
 
- 
-
-## 🛠️ Skills Highlighted  
+ ## 🛠️ Skills Highlighted  
 - 📂 Reviewing permissions with `ls -la`  
 - ⚙️ Modifying permissions with `chmod`  
 - 🛡️ Enforcing least privilege in Linux systems  
