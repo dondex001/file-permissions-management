@@ -6,7 +6,9 @@ The objective was to ensure files and directories follow organizational security
 ## 📸 Screenshot  
 Below is the screenshot showing the commands and outputs from this lab:  
 
-![Linux file permissions lab](images/linux_permissions_lab.png)  
+![Linux file permissions lab](chmod-before.png)
+
+ 
 
 ## 🛠️ Skills Highlighted  
 - 📂 Reviewing permissions with `ls -la`  
