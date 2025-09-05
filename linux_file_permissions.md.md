@@ -29,7 +29,8 @@ The organization decided that others should not have write access to any of thei
 
 The following code demonstrates how I used Linux commands to do this:
 
-![Screenshot of the command line with the commands for this task and their output][image2]
+![Change File Screenshot](https://raw.githubusercontent.com/dondex001/file-permissions-management/3a325eb20ca17d213baec3d28b221bc3ccef5e6f/change-file2.png)
+
 
 In the screenshot, the first two lines display the commands I entered, and the subsequent lines show the output of the second command. The `chmod` command is used to adjust file and directory permissions. The first argument defines the permission change, while the second argument specifies the target file or directory. In this example, I removed the write permission for others from the *project\_k.txt* file. To verify the change, I ran `ls -la` again and confirmed that the updated permissions were applied successfully.
 
