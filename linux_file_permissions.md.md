@@ -50,7 +50,8 @@ In the screenshot, the first two lines show the commands I entered, while the re
 My organization requires that only the *researcher2* user have access to the *drafts* directory and its contents. This means that no other users should be granted execute permissions for this directory. To enforce this restriction, I used Linux commands to update the directory’s permissions. 
 
 The following code demonstrates how I applied these changes:  
-![Screenshot of the command line with the commands for this task and their output][image4]
+![Change Directory Screenshot](https://github.com/dondex001/file-permissions-management/blob/216e93560d7668182fcca0241ebc6390f7d40a14/change-directory4.png)
+
 
 The output shown here lists the permissions for several files and directories. Line 1 represents the current directory (*projects*), and line 2 represents its parent directory (*home*). Line 3 shows a regular hidden file named *.project\_x.txt*, while line 4 displays the *drafts* directory with its updated restricted permissions. As the output indicates, only the *researcher2* user now has execute permissions. Since the group previously had execute permissions, I used the `chmod` command to remove them. The *researcher2* user already had execute permissions, so no additional changes were required.
 
