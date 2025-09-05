@@ -6,7 +6,7 @@ The objective was to ensure files and directories follow organizational security
 ## 📸 Screenshot  
 Below is the screenshot showing the commands and outputs from this lab:  
 
-![mage alt](https://github.com/dondex001/file-permissions-management/blob/1ca1b04c81208b536f0331c65ba2bf3c1a5cb11c/chmod-before.png)
+![image alt](https://github.com/dondex001/file-permissions-management/blob/1ca1b04c81208b536f0331c65ba2bf3c1a5cb11c/chmod-before.png?raw=true)
 
  ## 🛠️ Skills Highlighted  
 - 📂 Reviewing permissions with `ls -la`  
